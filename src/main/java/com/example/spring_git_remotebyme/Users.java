@@ -4,7 +4,7 @@ public class Users {
 
     private String name;
     private int age;
-    private String phone_number
+    private String phone_number;
     public Users(String name, int age) {
         this.name = name;
         this.age = age;
