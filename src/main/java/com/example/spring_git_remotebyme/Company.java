@@ -5,8 +5,10 @@ public class Company {
     private String name;
     private String address;
 
-    public Company(String name, String address) {
+    private String state;
+    public Company(String name, String address,  String state) {
         this.name = name;
         this.address = address;
+        this.state = state;
     }
 }
